@@ -9,13 +9,12 @@ def roll_call_dwarves(array)
 end
 
 
-
+veggies = ["carrot", "cucumber", "pepper"]
 def summon_captain_planet(array)
-  array.map! {|w| w.capitalize}
-  array.each {|w| puts w + "!"}
-
+  array.map! {|new| new.capitalize}
+  array.each {|new| puts new + '!'}
 end
-
+summon_captain_planet(veggies)
 
 
 def long_planeteer_calls# code an argument here
