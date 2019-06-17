@@ -12,7 +12,7 @@ planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
 
 def summon_captain_planet(array)
   array.collect {|new_array| new_array.capitalize + "!"}
- puts new_array + "!"
+ arry.map.with_index {|new| puts new + "!"
 end
 
 summon_captain_planet(planeteer_calls)
