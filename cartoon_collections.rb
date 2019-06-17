@@ -11,8 +11,8 @@ end
 planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
 
 def summon_captain_planet(array)
-  array.collect! {|new_array| new_array.capitalize}
-  new_array.map {|new_array, i| puts new_array + "!"}
+  array.collect! do |new_array|
+    new_array.each {|done| puts new_array.capitalize + "!"}
 end
 
 
