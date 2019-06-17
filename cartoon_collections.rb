@@ -3,6 +3,7 @@ def roll_call_dwarves(array)
   if counter < array.length - 1
     array.each do |name|
       puts " #{counter} #{name}"
+      counter += 1
 
     end
   end
