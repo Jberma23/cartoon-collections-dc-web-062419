@@ -12,7 +12,7 @@ end
 veggies = ["carrot", "cucumber", "pepper"]
 def summon_captain_planet(array)
   array.map! {|new| new.capitalize}
-  array.each {|new| puts "#{new}!"}
+  array.each {|new| puts new.include("!")}
 end
 summon_captain_planet(veggies)
 
