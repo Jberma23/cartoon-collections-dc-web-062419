@@ -14,6 +14,7 @@ def summon_captain_planet(array)
   array.map! {|new| new.capitalize}
   array.each {|new| puts new.add("!")}
 end
+end
 summon_captain_planet(veggies)
 
 
