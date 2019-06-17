@@ -8,7 +8,7 @@ def roll_call_dwarves(array)
   end
 end
 
-planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
+
 
 def summon_captain_planet(array)
   array.map! {|call| call.capitalize}
